@@ -6,44 +6,17 @@ This is my personal repository for experimenting with [ANTLR4](https://www.antlr
 
 This repository contains grammar files (`*.g4`), example source files, and Java-based parser code for learning and testing ANTLR4. It's intended as a sandbox for building domain-specific languages (DSLs), exploring grammar design, and integrating parsing into Java projects.
 
-<!--
-## 📁 Structure
-
-```
-antlr4-playground/
-├── grammars/           # .g4 files for grammars
-├── examples/           # Sample input files to parse
-├── src/                # Java source code using the generated parser
-├── test/               # Unit and integration tests
-├── docs/               # Notes and grammar explanations
-├── .gitignore
-├── pom.xml             # Maven config (if using Maven)
-└── README.md
-```
-
 ## 🔧 Requirements
 
 - Java 11+ (Java 17 or 21 recommended)
 - [ANTLR4 Tool](https://www.antlr.org/)
-- [Maven](https://maven.apache.org/) or [Gradle](https://gradle.org/) (optional but useful)
+- [Maven](https://maven.apache.org/) 
 - ANTLR4 Java runtime: `org.antlr:antlr4-runtime`
 
-## 🧪 Run Example
-
-```bash
-# Generate parser and lexer (if using CLI)
-antlr4 grammars/MyGrammar.g4 -o src/main/java -visitor -package my.grammar
-
-# Compile and run Java files
-javac -cp .:antlr-4.X-complete.jar src/my/grammar/*.java
-java -cp .:antlr-4.X-complete.jar my.grammar.Main
-```
--->
 ## 📚 Learning Resources
 
 - [ANTLR4 Book: The Definitive Guide](https://pragprog.com/titles/tpantlr2/the-definitive-antlr-4-reference/)
 - [ANTLR Mega Tutorial (GitHub)](https://github.com/antlr/grammars-v4)
-- [ANTLR4 by Example](https://tomassetti.me/antlr-mega-tutorial/)
 
 ## 🧠 Goals
 
